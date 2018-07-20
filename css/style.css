@@ -7,6 +7,8 @@ body {
   font-size: 1em;
   box-sizing: border-box;
   background: white;
+  width: 687px;
+  margin: 0 auto;
 }
 
 * {
@@ -40,7 +42,7 @@ img {
 }
 
 .wrapper {
-  width: 625px;
+  width: 90%;
   margin: 0 auto;
   background: rgb(246, 246, 247);
 }
@@ -94,9 +96,9 @@ i {
 
 #checkin,
 #checkout {
-  height: 20px;
-  width: 120px;
-  margin: 35px 0px 35px 50px;
+  height: 10%;
+  width: 30%;
+  margin: 8% 0 8% 10%;
   border: solid 1px rgb(83, 78, 67);
   border-radius: 0;
   font-size: 0.8em;
@@ -104,7 +106,7 @@ i {
 
 #visitor {
   width: 30px;
-  margin: 20px 0 0 150px;
+  margin: 8% 0 0 33%;
   border: solid 1px rgb(83, 78, 67);
   border-radius: 0;
 }
@@ -119,7 +121,6 @@ i {
   width: 48%;
   top: -18%;
   left: 50%;
-  height: 280px;
   background-color: white;
   z-index: 3;
   border: 1px rgb(83, 78, 67) solid;
@@ -132,14 +133,15 @@ i {
   background-image: url("../images/balif.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 415px;
+  height: auto;
+  width: 100%;
 }
 
 .header1 {
   position: relative;
-  width: 260px;
+  width: 40%;
   overflow-wrap: break-word;
-  top: 44%;
+  top: 170px;
   left: 3%;
 }
 
@@ -268,7 +270,7 @@ figure.boy img {
   color: rgb(92, 87, 77);
 }
 
-/* this is footer */
+/* ------------this is footer -----------*/
 
 footer {
   background: rgb(83, 78, 67);
@@ -324,13 +326,47 @@ input {
 
 /* --------- Media query here --------- */
 @media only screen and (max-width: 530px) {
+  body {
+    width: 90%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+
+  .top h1 {
+    font-size: 2.2em;
+    position: relative;
+    top: -70px;
+  }
+
+  .top .visitordiv {
+    position: relative;
+    top: -80px;
+    text-align: center;
+  }
+  .servicesection h2 {
+    margin-top: 0;
+  }
+
   .navbar a {
     visibility: hidden;
-    transform: scale(2);
   }
   .navbar a.menu-icon {
     visibility: visible;
     text-decoration: none;
     color: rgb(92, 87, 77);
+    font-size: 3em;
+  }
+
+  .aside h2 {
+    font-size: 1.3em;
+  }
+
+  .aside p {
+    font-size: 0.8em;
+  }
+
+  .col-4 {
+    width: 48%;
   }
 }
