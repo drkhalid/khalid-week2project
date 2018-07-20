@@ -42,7 +42,7 @@ img {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   background: rgb(246, 246, 247);
 }
@@ -152,9 +152,13 @@ h1 {
 
 .navbar {
   position: relative;
-  top: 2%;
+  top: 20px;
   text-align: right;
   padding: 1% 0;
+}
+
+.navbar .box {
+  border-radius: 5px
 }
 
 .navigation a {
@@ -183,7 +187,8 @@ h1 {
   padding-bottom: 100px;
 }
 
-.rowservice {
+.rowservice,
+.rowstandard {
   display: flex;
   flex-wrap: wrap;
 }
@@ -456,4 +461,104 @@ input {
     height: auto;
     width: 100%;
   }
+}
+
+/* ----------- ROOOOOM ----------------- */
+
+.toproom {
+  display: flex;
+  background: white
+}
+
+.toproom.navbar {
+  position: relative;
+  margin: 0 auto 0 0;
+  top: 300px
+}
+
+.toproom div.header1 {
+  position: relative;
+  left: 0;
+  top: 0;
+  font-size: 0.3em;
+  margin: 0;
+  width: 7em;
+  margin: 0 auto 0 0
+}
+
+.featured {
+  margin: 30px 0;
+  font-size: 1.2em;
+  text-align: center
+}
+
+.master {
+  background: white
+}
+
+.junior main,
+.master aside {
+  background: white;
+  margin: 10% 0 0 0;
+  padding: 8%;
+  font-size: 0.9em
+}
+
+.master figure,
+.junior figure {
+  margin: 0;
+}
+
+.junior main {
+  position: relative;
+  top: -25px;
+}
+
+.standardroom {
+  padding: 10% 0;
+  text-align: center
+}
+
+.standardroom .col-1 {
+  width: 30%;
+  background: white;
+  font-size: 1em
+}
+
+.standardroom .col-1 h3 {
+  font-size: 1em
+}
+
+.standardroom figure {
+  overflow: hidden;
+  height: 140px;
+  margin: 0
+}
+
+.booknow {
+  text-align: center;
+  margin: 6% auto 0;
+  border-radius: 7px;
+  padding: 1.5% 9%;
+  border: 2px solid rgb(92, 87, 77)
+}
+
+.booknow a {
+  color: rgb(92, 87, 77);
+  text-decoration: none
+}
+
+.master .booknow,
+.junior .booknow {
+  text-align: center;
+  margin: 15% 0 0;
+  border-radius: 7px;
+  padding: 5% 7%;
+  border: 2px solid rgb(92, 87, 77);
+  width: 80%;
+}
+
+.booknow a {
+  color: rgb(92, 87, 77);
+  text-decoration: none
 }
