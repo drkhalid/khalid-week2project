@@ -113,7 +113,7 @@ i {
 
 #button {
   border: solid 1px rgb(83, 78, 67);
-  padding: 10px 50px 10px;
+  padding: 4% 17%;
 }
 
 .top .visitordiv {
@@ -216,7 +216,7 @@ i {
 
 .roomsection .col-2 img {
   position: relative;
-  left: -100px;
+  left: -35%;
   transform: scale(3);
 }
 
@@ -317,15 +317,15 @@ input {
   height: 20px;
 }
 .button {
-  width: 158px;
+  width: 59%;
   background-color: rgb(83, 78, 67);
   border: 1px solid white;
   border-radius: 10px;
   color: white;
 }
 
-/* --------- Media query here --------- */
-@media only screen and (max-width: 530px) {
+/* --------- Media query for Tblet  --------- */
+@media only screen and (max-width: 600px) {
   body {
     width: 90%;
   }
@@ -334,9 +334,9 @@ input {
   }
 
   .top h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     position: relative;
-    top: -70px;
+    top: -60px;
   }
 
   .top .visitordiv {
@@ -359,14 +359,115 @@ input {
   }
 
   .aside h2 {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
 
   .aside p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .col-4 {
     width: 48%;
+  }
+}
+
+/* --------- Media query for mobile  --------- */
+@media only screen and (max-width: 320px) {
+  body {
+    width: 90%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+
+  .top h1 {
+    font-size: 2em;
+    position: relative;
+    top: -250px;
+    left: 30px;
+  }
+  .header1 {
+    position: relative;
+    width: 70%;
+  }
+
+  .top .visitordiv {
+    position: relative;
+    top: -80px;
+    text-align: center;
+    width: 90%;
+    left: 15px;
+  }
+  .servicesection h2 {
+    width: 90%;
+    font-size: 2em;
+    margin: 0 auto 70px;
+  }
+
+  .navbar a {
+    visibility: hidden;
+  }
+  .navbar a.menu-icon {
+    visibility: visible;
+    text-decoration: none;
+    color: rgb(92, 87, 77);
+    font-size: 3em;
+  }
+
+  .col-1 {
+    width: 50%;
+  }
+
+  .aside,
+  .col-2,
+  .col-5 {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .col-4 {
+    width: 90%;
+  }
+
+  .roomsection .col-2 img {
+    position: relative;
+    left: 0;
+    transform: scale(2);
+  }
+
+  .roomsection,
+  .row,
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    position: relative;
+    top: 0;
+  }
+  .intouch {
+    display: block;
+  }
+
+  .guestsections h2 {
+    font-size: 1.6em;
+    margin: 0 auto 50px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .button {
+    position: relative;
+    left: -2px;
+  }
+
+  .top {
+    background-image: url("../images/balif.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
   }
 }
