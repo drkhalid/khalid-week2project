@@ -338,7 +338,7 @@ input {
   .top h1 {
     font-size: 2.5em;
     position: relative;
-    top: -60px;
+    top: 20px;
   }
   .top .visitordiv {
     position: relative;
