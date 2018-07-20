@@ -497,7 +497,7 @@ input {
   .roomsection.master .col-5 {
     margin: 3% 0 0 0
   }
-  .paint figure img {
+  .standardroom .paint figure img {
     position: relative;
     top: -140px
   }
@@ -577,8 +577,13 @@ input {
 
 .standardroom figure {
   overflow: hidden;
-  height: 180px;
+  height: 138px;
   margin: 0
+}
+
+.standardroom .paint img {
+  position: relative;
+  top: -105px
 }
 
 .booknow {
