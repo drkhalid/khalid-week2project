@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One");
+/* ---------General styles here--------- */
+
+body {
+  font-family: "Poiret One", cursive;
+  color: rgb(92, 87, 77);
+  font-size: 1em;
+  box-sizing: border-box;
+  background: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.9em;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 0.8em;
+}
+
+section {
+  background: rgb(246, 246, 247);
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 625px;
+  margin: 0 auto;
+  background: rgb(246, 246, 247);
+}
+
+.col-1 {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.aside {
+  width: 40%;
+  margin: 0 auto;
+}
+.col-2 {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.roomsection .col-2 {
+  overflow: hidden;
+}
+
+.col-3 {
+  widows: 100%;
+}
+
+.col-4 {
+  width: 40%;
+  background: white;
+  margin: 0 auto 30px;
+}
+
+.row,
+.roomsection,
+.intouch {
+  display: flex;
+  margin: 0 auto;
+}
+
+i {
+  transform: scale(2);
+}
+
+.box {
+  border: 2px rgb(83, 78, 67) solid;
+  border-radius: 20px;
+}
+
+/* ---------header section----------- */
+
+#checkin,
+#checkout {
+  height: 20px;
+  width: 120px;
+  margin: 35px 0px 35px 50px;
+  border: solid 1px rgb(83, 78, 67);
+  border-radius: 0;
+  font-size: 0.8em;
+}
+
+#visitor {
+  width: 30px;
+  margin: 20px 0 0 150px;
+  border: solid 1px rgb(83, 78, 67);
+  border-radius: 0;
+}
+
+#button {
+  border: solid 1px rgb(83, 78, 67);
+  padding: 10px 50px 10px;
+}
+
+.top .visitordiv {
+  position: relative;
+  width: 48%;
+  top: -18%;
+  left: 50%;
+  height: 280px;
+  background-color: white;
+  z-index: 3;
+  border: 1px rgb(83, 78, 67) solid;
+  border-radius: 20px;
+  transform: 0 200px;
+  text-align: center;
+}
+
+.top {
+  background-image: url("../images/balif.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 415px;
+}
+
+.header1 {
+  position: relative;
+  width: 260px;
+  overflow-wrap: break-word;
+  top: 44%;
+  left: 3%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.navbar {
+  position: relative;
+  top: 2%;
+  text-align: right;
+  padding: 1% 0;
+}
+
+.navigation a {
+  padding: 0 3%;
+  text-decoration: none;
+  color: rgb(92, 87, 77);
+}
+
+.bookroom {
+  background-color: rgba(92, 87, 77, 0.5);
+  color: white;
+}
+
+.navigation .bookroom {
+  padding: 1% 2%;
+  color: white;
+}
+
+.navigation .menu-icon {
+  visibility: hidden;
+}
+
+/* ---------Services section----------- */
+
+.servicesection .rowservice div {
+  padding-bottom: 100px;
+}
+
+.rowservice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.servicesection,
+.guestsections {
+  text-align: center;
+}
+
+.servicesection h2 {
+  margin: 70px;
+}
+
+i {
+  padding-bottom: 20px;
+}
+
+.col-1 {
+  text-transform: lowercase;
+}
+
+/* ---------Guest & Room section----------- */
+
+.guestsections h2 {
+  margin: 70px;
+}
+
+.roompadding {
+  padding: 0 20px 0;
+}
+
+.roomsection .col-2 img {
+  position: relative;
+  left: -100px;
+  transform: scale(3);
+}
+
+.guestsections figure {
+  margin: 10px auto 10px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  size: 100px;
+}
+
+.roomsection .box {
+  padding: 0;
+  text-align: center;
+  width: 80%;
+  padding: 8px 0;
+}
+
+.guestsections i {
+  margin: 12px 10px 0;
+}
+
+.guestsections figure {
+  height: 155px;
+  width: 160px;
+}
+
+.amina {
+  position: relative;
+  top: -80px;
+}
+
+figure.boy {
+  height: 155px;
+  width: 180px;
+}
+
+figure.boy img {
+  transform: scale(1.4);
+}
+
+.roombox {
+  padding: 2%;
+  text-align: center;
+  border: 2px rgb(83, 78, 67) solid;
+  border-radius: 5px;
+}
+
+.roombox a {
+  text-decoration: none;
+  color: rgb(92, 87, 77);
+}
+
+/* this is footer */
+
+footer {
+  background: rgb(83, 78, 67);
+  display: flex;
+}
+
+.col-5 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.icon {
+  position: relative;
+  text-align: right;
+  top: 55px;
+  z-index: 3;
+}
+
+.icon i {
+  padding: 0 5%;
+  z-index: 3;
+  color: white;
+}
+
+.intouch {
+  color: white;
+  text-align: center;
+}
+
+input {
+  border-radius: 6px;
+  margin: 0 0 10px 10px;
+}
+
+/* input[type="button"] {
+    color: white;
+    background: rgb(83, 78, 67);
+    border: 1px solid white;
+    width: input-with
+} */
+
+.input {
+  width: 160px;
+  height: 20px;
+}
+.button {
+  width: 158px;
+  background-color: rgb(83, 78, 67);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+/* --------- Media query here --------- */
+@media only screen and (max-width: 530px) {
+  .navbar a {
+    visibility: hidden;
+    transform: scale(2);
+  }
+  .navbar a.menu-icon {
+    visibility: visible;
+    text-decoration: none;
+    color: rgb(92, 87, 77);
+  }
+}
