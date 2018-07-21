@@ -161,7 +161,15 @@ h1 {
   width: 400px;
 }
 
-.navbar .box {
+.navbarhome {
+  position: relative;
+  top: 20px;
+  text-align: right;
+  padding: 1% 0;
+}
+
+.navbar .box,
+.navbarhome .box {
   border-radius: 5px;
 }
 
@@ -361,10 +369,12 @@ input {
   .servicesection h2 {
     margin-top: 0;
   }
-  .navbar a {
+  .navbar a,
+  .navbarhome a {
     visibility: hidden;
   }
-  .navbar a.menu-icon {
+  .navbar a.menu-icon,
+  .navbarhome a.menu-icon {
     position: relative;
     top: 10px;
     visibility: visible;
@@ -381,7 +391,8 @@ input {
   .col-4 {
     width: 48%;
   }
-  .navbar {
+  .navbar,
+  .navbarhome {
     position: relative;
     top: -20px;
   }
