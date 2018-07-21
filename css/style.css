@@ -79,7 +79,8 @@ img {
 
 .row,
 .roomsection,
-.intouch {
+.intouch,
+.location {
   display: flex;
   margin: 0 auto;
 }
@@ -158,7 +159,7 @@ h1 {
 }
 
 .navbar .box {
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .navigation a {
@@ -320,14 +321,18 @@ input {
 
 .input {
   width: 160px;
-  height: 20px;
+  height: 26px;
+  border: 1px solid rgb(92, 87, 77);
+  border-radius: 5px;
+  padding-left: 2%;
 }
 
 .button {
-  width: 59%;
+  width: 160px;
+  height: 26px;
   background-color: rgb(83, 78, 67);
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
 }
 
@@ -450,7 +455,7 @@ input {
   }
   .roomsection.junior {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
   .icon {
     position: relative;
@@ -485,41 +490,42 @@ input {
     margin: 0 auto;
   }
   .intouch.col-5 {
-    margin-bottom: 2%
+    margin-bottom: 2%;
   }
   .roomsection.junior .aside {
-    margin: 0
+    margin: 0;
   }
   .roomsection.junior .col-2 {
     margin-top: 0;
     top: -3px;
   }
   .roomsection.master .col-5 {
-    margin: 3% 0 0 0
+    margin: 3% 0 0 0;
   }
   .standardroom .paint figure img {
     position: relative;
-    top: -140px
+    top: -140px;
   }
   .roomsection.master p,
   .roomsection.junior p,
   .standardroom div p {
     text-align: left;
-    padding: 0 2%
+    padding: 0 2%;
   }
 }
 
 /* ----------- ROOOOOM ----------------- */
 
-.toproom {
+.toproom,
+.getintouch {
   display: flex;
-  background: white
+  background: white;
 }
 
 .toproom.navbar {
   position: relative;
   margin: 0 auto 0 0;
-  top: 300px
+  top: 300px;
 }
 
 .toproom div.header1 {
@@ -529,17 +535,17 @@ input {
   font-size: 0.3em;
   margin: 0;
   width: 10%;
-  margin: 0 auto 0 0
+  margin: 0 auto 0 0;
 }
 
 .featured {
   margin: 30px 0;
   font-size: 1.2em;
-  text-align: center
+  text-align: center;
 }
 
 .master {
-  background: white
+  background: white;
 }
 
 .junior main,
@@ -547,7 +553,7 @@ input {
   background: white;
   margin: 10% 0 0 0;
   padding: 8%;
-  font-size: 0.9em
+  font-size: 0.9em;
 }
 
 .master figure,
@@ -562,28 +568,28 @@ input {
 
 .standardroom {
   padding: 10% 0;
-  text-align: center
+  text-align: center;
 }
 
 .standardroom .col-1 {
   width: 30%;
   background: white;
-  font-size: 1em
+  font-size: 1em;
 }
 
 .standardroom .col-1 h3 {
-  font-size: 1em
+  font-size: 1em;
 }
 
 .standardroom figure {
   overflow: hidden;
   height: 138px;
-  margin: 0
+  margin: 0;
 }
 
 .standardroom .paint img {
   position: relative;
-  top: -105px
+  top: -105px;
 }
 
 .booknow {
@@ -591,12 +597,12 @@ input {
   margin: 6% auto 0;
   border-radius: 7px;
   padding: 1.5% 9%;
-  border: 2px solid rgb(92, 87, 77)
+  border: 2px solid rgb(92, 87, 77);
 }
 
 .booknow a {
   color: rgb(92, 87, 77);
-  text-decoration: none
+  text-decoration: none;
 }
 
 .master .booknow,
@@ -611,5 +617,136 @@ input {
 
 .booknow a {
   color: rgb(92, 87, 77);
-  text-decoration: none
+  text-decoration: none;
+}
+
+/* ------------------contact page here---------------------- */
+
+.contactus {
+  background-image: url("../images/francesca-saraco-65449-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 460px;
+  width: 100%;
+}
+
+.contactus div {
+  width: fit-content;
+  position: relative;
+  margin: 0px auto;
+  top: 10%;
+  background: rgba(256, 256, 256, 0.75);
+  padding: 2% 3%;
+}
+
+.contactus div h1 {
+  margin: 0;
+}
+
+.location {
+  margin: 8% 0;
+}
+
+.map {
+  width: 70%;
+  overflow: hidden;
+}
+
+.getintouch .col-4 {
+  margin: 0;
+}
+
+.map iframe {
+  margin: 0 3%;
+  width: 100%;
+}
+
+.contactdetail {
+  width: 30%;
+}
+
+.contactdetail {
+  padding: 0 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pin,
+.call,
+.mail {
+  display: flex;
+  width: 100%;
+}
+
+.getintouch .col-4 figure {
+  position: relative;
+  margin: 0;
+  top: 2%;
+}
+
+.footcontact {
+  margin-top: 0.7%;
+}
+
+.loicon i {
+  transform: scale(2);
+}
+
+.loicon {
+  position: relative;
+  top: 10%;
+  padding: 0 3%;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.pin .loicon {
+  top: 18%;
+}
+
+.lotext {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.lotext a {
+  text-decoration: none;
+  color: rgb(92, 87, 77);
+}
+
+.getintouch .msg.col-2 {
+  text-align: center;
+}
+
+.getintouch .msg.col-2 input {
+  text-align: left;
+  border: 2px solid rgb(92, 87, 77);
+  width: 45%;
+  margin: 0 0 3% 0;
+  padding: 1.5% 0 2% 2%;
+}
+.getintouch .msg.col-2 textarea {
+  text-align: left;
+  border: 2px solid rgb(92, 87, 77);
+  width: 45%;
+  margin: 0 0 3% 0;
+  padding: 1.5% 0 2% 2%;
+  border-radius: 5px;
+}
+
+.getintouch .msg.col-2 .sendbutton {
+  text-align: center;
+  border: 2px solid rgb(92, 87, 77);
+  width: 45%;
+  margin: 0 0 3% 0;
+  padding: 1.5% 0 2% 2%;
+  background: rgb(92, 87, 77);
+  color: white;
+}
+
+.intouchheader {
+  width: 25%;
+  margin: 8% auto 8%;
+  font-size: 0.8em;
+  word-spacing: 0.7em;
 }
